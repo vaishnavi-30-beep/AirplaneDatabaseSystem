@@ -323,7 +323,7 @@ class AirplaneSystem:
       choice = 0
       while choice != 7 :
           print("Tables present in Database : ")
-          print("1. Airplane\n2. Model\n3. Employee\n4. Technician\n5. Traffic Controller\n6. Test")
+          print("1. Airplane\n2. Model\n3. Employee\n4. Technician\n5. Traffic Controller\n6. Test\n7. Exit Menu")
           print("\nEnter number of table to perform operations : ")
           choice = int(input())
           if choice == 1:
